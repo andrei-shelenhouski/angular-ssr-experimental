@@ -1,4 +1,4 @@
-module.exports = {
+const esLintConfig = {
   root: true,
   env: {
     es6: true,
@@ -31,3 +31,5 @@ module.exports = {
     'quote-props': ['error', 'as-needed']
   }
 };
+
+export default esLintConfig;
